@@ -45,7 +45,12 @@ ul > .div{
 #userinput{
     height: 35px;
     backface-visibility: hidden;
-    background: transparent;
+    background: white;
+}
+#userinput{
+    height: 35px;
+    backface-visibility: hidden;
+    background: transparent;    
 }
 #clear{
     padding-bottom: 1rem;
