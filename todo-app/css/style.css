@@ -1,0 +1,74 @@
+.container{
+    background-color: lightsteelblue;
+    width: 45%;
+    height: 90%;
+    margin-top: 3%;
+}
+.header{
+    padding-top: 7%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > .div{
+    width: 100%;
+    /* border: red solid; */
+    margin-bottom: .3rem;
+}
+.ckClass {
+    margin-left: ;
+}
+.inp{
+    margin: 2% 2% ;
+    width: 40%;
+    height: 35px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black;
+}
+.edit, .del{
+    margin-left: 1.4rem;
+    width: 15%;
+}
+
+.footer{
+    margin-top: 15rem;
+    padding-bottom: 1rem;
+    position: relative;
+    width: 60%;
+    left: 20%;
+    bottom: 10%;
+}
+#userinput{
+    height: 35px;
+    backface-visibility: hidden;
+    background: transparent;
+}
+#clear{
+    padding-bottom: 1rem;
+}
+#enter{
+    margin-left: 4%;
+}
+
+.done{
+    text-decoration: line-through;
+    color: gray;
+    border-bottom: 1px solid grey;
+}
+
+
+@media (max-width: 992px){
+    .container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+}
